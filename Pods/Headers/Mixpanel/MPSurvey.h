@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/MPSurvey.h
+../../../../mixpanel-iphone-private/Mixpanel/MPSurvey.h

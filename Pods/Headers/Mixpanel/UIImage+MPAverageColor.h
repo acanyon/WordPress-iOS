@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/UIImage+MPAverageColor.h
+../../../../mixpanel-iphone-private/Mixpanel/UIImage+MPAverageColor.h

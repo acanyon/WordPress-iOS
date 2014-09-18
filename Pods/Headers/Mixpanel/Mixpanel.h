@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/Mixpanel.h
+../../../../mixpanel-iphone-private/Mixpanel/Mixpanel.h

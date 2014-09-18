@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/NSData+MPBase64.h
+../../../../mixpanel-iphone-private/Mixpanel/NSData+MPBase64.h

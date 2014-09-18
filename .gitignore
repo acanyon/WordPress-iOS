@@ -24,6 +24,7 @@ profile
 DerivedData
 .idea/
 *.hmap
+Pods/
 
 # Windows
 Thumbs.db

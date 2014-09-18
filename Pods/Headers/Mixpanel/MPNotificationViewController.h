@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/MPNotificationViewController.h
+../../../../mixpanel-iphone-private/Mixpanel/MPNotificationViewController.h

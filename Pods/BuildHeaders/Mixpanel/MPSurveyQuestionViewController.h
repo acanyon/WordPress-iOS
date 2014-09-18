@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/MPSurveyQuestionViewController.h
+../../../../mixpanel-iphone-private/Mixpanel/MPSurveyQuestionViewController.h

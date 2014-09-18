@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/MPSurveyNavigationController.h
+../../../../mixpanel-iphone-private/Mixpanel/MPSurveyNavigationController.h

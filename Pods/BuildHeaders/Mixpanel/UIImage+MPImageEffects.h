@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/UIImage+MPImageEffects.h
+../../../../mixpanel-iphone-private/Mixpanel/UIImage+MPImageEffects.h

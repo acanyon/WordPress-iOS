@@ -25,6 +25,7 @@ NSString *const EmailAddressRetrievedKey = @"email_address_retrieved";
 - (void)beginSession
 {
     [Mixpanel sharedInstanceWithToken:[WordPressComApiCredentials mixpanelAPIToken]];
+    [[Mixpanel sharedInstance] setFlushInterval:0];
     [self refreshMetadata];
 }
 
@@ -145,9 +146,7 @@ NSString *const EmailAddressRetrievedKey = @"email_address_retrieved";
             NSMutableDictionary *combinedProperties = [[NSMutableDictionary alloc] init];
             [combinedProperties addEntriesFromDictionary:aggregatedPropertiesForEvent];
             [combinedProperties addEntriesFromDictionary:properties];
-            [[Mixpanel sharedInstance] track:instructions.mixpanelEventName properties:combinedProperties];
         } else {
-            [[Mixpanel sharedInstance] track:instructions.mixpanelEventName properties:properties];
         }
     }
     

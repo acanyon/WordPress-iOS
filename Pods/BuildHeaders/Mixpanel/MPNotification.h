@@ -1,1 +1,1 @@
-../../Mixpanel/Mixpanel/MPNotification.h
+../../../../mixpanel-iphone-private/Mixpanel/MPNotification.h
