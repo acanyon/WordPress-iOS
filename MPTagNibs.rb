@@ -25,7 +25,7 @@ class TagNibFiles
     def tag_file()
         nib_dom = Nokogiri::XML(File.open(@filepath))
         nib_dom.xpath('//view').each do |view_node|
-#            self.tag_new_node(nib_dom, view_node)
+            self.tag_new_node(nib_dom, view_node)
         end
         nib_dom.xpath('//subviews').each do |subviews|
             subviews.element_children.each do |element|
@@ -66,7 +66,7 @@ class TagNibFiles
 end
 
 def get_files(project_root)
-    return Dir.glob("#{project_root}/**/*.xib") || []
+    return Dir.glob("#{project_root}/**/*{.storyboard,.xib}") || []
 end
 
 
