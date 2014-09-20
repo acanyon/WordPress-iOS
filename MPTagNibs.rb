@@ -2,16 +2,23 @@ require 'pry' # todo -- remove
 
 begin
     require 'rubygems'
-rescue Exception => e
+rescue Exception
     abort 'Err. Install rubygems before continuing. http://http://rubygems.org/pages/download'
 end
 
 begin
     gem 'nokogiri', '~> 1.6.3'
     require 'nokogiri'
-rescue Exception => e
+rescue Gem::LoadError
     puts 'Nokogiri is not installed. Installing...'
-    # todo -- write me
+    begin
+        success = system('gem install --user-install nokogiri --version "~>1.6.3"')
+        raise $? if !success
+    rescue Exception
+        abort "Err. Failed to install dependency: Nokogiri\n
+                Please run the following before continuing. 
+                `gem install --user-install nokogiri --version \"~>1.6.3\"`"
+    end
 end
 
 class TagNibFiles
