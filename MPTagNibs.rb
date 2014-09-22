@@ -19,6 +19,8 @@ rescue Gem::LoadError
                 Please run the following before continuing. 
                 `gem install nokogiri --version \"~>1.6.3\"`"
     end
+    Gem.clear_paths
+    require 'nokogiri'
 end
 
 class TagNibFiles
