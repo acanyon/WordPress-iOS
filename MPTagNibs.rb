@@ -1,4 +1,4 @@
-require 'pry' # todo -- remove
+require 'pry' # TODO -- remove
 
 begin
     require 'rubygems'
@@ -11,13 +11,13 @@ begin
     require 'nokogiri'
 rescue Gem::LoadError
     puts 'Nokogiri is not installed. Installing...'
+    success = system('gem install --minimal-deps nokogiri --version "~>1.6.3"')
     begin
-        success = system('gem install --user-install nokogiri --version "~>1.6.3"')
         raise $? if !success
     rescue Exception
         abort "Err. Failed to install dependency: Nokogiri\n
                 Please run the following before continuing. 
-                `gem install --user-install nokogiri --version \"~>1.6.3\"`"
+                `gem install nokogiri --version \"~>1.6.3\"`"
     end
 end
 
@@ -29,7 +29,7 @@ class TagNibFiles
         @changed = false
     end
 
-    def tag_file()
+    def tag_file
         nib_dom = Nokogiri::XML(File.open(@filepath))
         nib_dom.xpath('//view').each do |view_node|
             self.tag_new_node(nib_dom, view_node)
