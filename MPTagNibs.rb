@@ -32,7 +32,9 @@ class TagNibFiles
     end
 
     def tag_file
-        nib_dom = Nokogiri::XML(File.open(@filepath))
+        nib_dom = Nokogiri::XML(File.open(@filepath)) do |config|
+            config.default_xml.noblanks
+        end
         nib_dom.xpath('//view').each do |view_node|
             self.tag_new_node(nib_dom, view_node)
         end
