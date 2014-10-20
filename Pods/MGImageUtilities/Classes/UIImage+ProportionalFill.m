@@ -174,10 +174,10 @@
 		
 		for (UIImage *image in self.images)
 		{
-			image = [image cropToRect:cropRect
+			UIImage *modifiedImage = [image cropToRect:cropRect
 					   andResizeToRec:resizeRect];
 			
-			[modifiedImages addObject:image];
+			[modifiedImages addObject:modifiedImage];
 		}
 		
 		modifiedImage = [UIImage animatedImageWithImages:modifiedImages

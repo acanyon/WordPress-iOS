@@ -1,1 +1,0 @@
-../../../../mixpanel-iphone-private/Mixpanel/UIView+MPSnapshotImage.h

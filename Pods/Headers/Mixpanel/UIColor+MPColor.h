@@ -1,1 +1,0 @@
-../../../../mixpanel-iphone-private/Mixpanel/UIColor+MPColor.h
