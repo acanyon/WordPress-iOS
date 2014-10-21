@@ -46,7 +46,7 @@ PODS:
   - HockeySDK (3.5.7)
   - JRSwizzle (1.0)
   - MGImageUtilities (0.0.1)
-  - Mixpanel (2.5.6)
+  - Mixpanel (2.5.4)
   - NSLogger (1.5)
   - NSLogger-CocoaLumberjack-connector (1.3):
     - CocoaLumberjack
@@ -150,7 +150,7 @@ SPEC CHECKSUMS:
   HockeySDK: f0e874d1c6833163ee0c4e423606faf33ad04071
   JRSwizzle: 30da7a2c539a4ebf954b16d15f6dd8221c9f6fa5
   MGImageUtilities: ce03a910781d7e189814d668af340bc1c0238363
-  Mixpanel: 9718e38f21b667206508572b227c5877c4ba4b2d
+  Mixpanel: 86ae4c68b2a2dd152763ac999819e4e8126d1b34
   NSLogger: 84ed0bf00985df483153ce344d8171c9ec83be2b
   NSLogger-CocoaLumberjack-connector: 8f659ea51386f0a0e8c2643bf9273010a83a15f5
   NSObject-SafeExpectations: c31276ef7209016849fc4e5c8ed5ae5453e1e208
