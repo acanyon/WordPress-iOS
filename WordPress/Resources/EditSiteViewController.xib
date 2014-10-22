@@ -25,9 +25,15 @@
                         <outlet property="dataSource" destination="-1" id="6"/>
                         <outlet property="delegate" destination="-1" id="7"/>
                     </connections>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditSiteViewController-tableView-4"/>
+                    </userDefinedRuntimeAttributes>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditSiteViewController-view-8"/>
+            </userDefinedRuntimeAttributes>
         </view>
     </objects>
 </document>

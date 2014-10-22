@@ -3,6 +3,8 @@ xcodeproj 'WordPress/WordPress.xcodeproj'
 inhibit_all_warnings!
 
 platform :ios, '7.0'
+pod 'Optimizely-iOS-SDK'
+
 pod 'AFNetworking',	'~> 2.3.1'
 pod 'Reachability',	'3.1.1'
 pod 'NSURL+IDN', :git => 'https://github.com/wordpress-mobile/NSURL-IDN.git'

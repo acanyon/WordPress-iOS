@@ -55,6 +55,7 @@ PODS:
   - NSURL+IDN (0.3)
   - OCMock (3.1.1)
   - OHHTTPStubs (1.1.1)
+  - Optimizely-iOS-SDK (0.7.55)
   - Reachability (3.1.1)
   - Simperium (0.6.6):
     - Google-Diff-Match-Patch
@@ -105,6 +106,7 @@ DEPENDENCIES:
   - NSURL+IDN (from `https://github.com/wordpress-mobile/NSURL-IDN.git`)
   - OCMock
   - OHHTTPStubs (= 1.1.1)
+  - Optimizely-iOS-SDK
   - Reachability (= 3.1.1)
   - Simperium (= 0.6.6)
   - SocketRocket (from `https://github.com/jleandroperez/SocketRocket.git`, branch `master`)
@@ -157,6 +159,7 @@ SPEC CHECKSUMS:
   NSURL+IDN: 2fdcdc5c2be6463f64dfb2ebb28271e6771d17e1
   OCMock: f6cb8c162ab9d5620dddf411282c7b2c0ee78854
   OHHTTPStubs: d6ace2645e4744a0ad6c5a72940999a5632037fb
+  Optimizely-iOS-SDK: 73fb9acc68e32df7a0a1f30909b7af4556aa7013
   Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
   Simperium: 6c7e8ebbfb32a854d3cbbab2f5dc8d6f5b311885
   SocketRocket: b809068861cb66d871eb93a428696b1eb5451318

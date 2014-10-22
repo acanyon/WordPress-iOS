@@ -29,11 +29,17 @@
                         <inset key="sectionInset" minX="7" minY="7" maxX="7" maxY="7"/>
                     </collectionViewFlowLayout>
                     <cells/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-collectionView-c0v-gh-0YF"/>
+                    </userDefinedRuntimeAttributes>
                 </collectionView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-view-1"/>
+            </userDefinedRuntimeAttributes>
         </view>
         <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translucent="NO" id="aza-XB-bxb">
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -57,11 +63,17 @@
             </items>
             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-toolbar-aza-XB-bxb"/>
+            </userDefinedRuntimeAttributes>
         </toolbar>
         <view contentMode="scaleToFill" id="lVI-zX-k6C" customClass="MediaSearchFilterHeaderView">
             <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-view-lVI-zX-k6C"/>
+            </userDefinedRuntimeAttributes>
         </view>
     </objects>
     <resources>

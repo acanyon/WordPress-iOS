@@ -28,11 +28,17 @@
                         <inset key="sectionInset" minX="7" minY="7" maxX="7" maxY="7"/>
                     </collectionViewFlowLayout>
                     <cells/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeBrowserViewController-collectionView-DGf-ap-P0O"/>
+                    </userDefinedRuntimeAttributes>
                 </collectionView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeBrowserViewController-view-1"/>
+            </userDefinedRuntimeAttributes>
         </view>
         <searchBar contentMode="redraw" id="cwU-sp-aH0">
             <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -42,6 +48,9 @@
                 <string>Title</string>
                 <string>Title</string>
             </scopeButtonTitles>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeBrowserViewController-searchBar-cwU-sp-aH0"/>
+            </userDefinedRuntimeAttributes>
         </searchBar>
     </objects>
 </document>

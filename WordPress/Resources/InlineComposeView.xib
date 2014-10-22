@@ -31,6 +31,9 @@
                             <connections>
                                 <outlet property="delegate" destination="-1" id="eYs-n0-Evf"/>
                             </connections>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-textView-BZS-fj-e3Z"/>
+                            </userDefinedRuntimeAttributes>
                         </textView>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write a reply…" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X94-zo-flx">
                             <rect key="frame" x="10" y="10" width="479" height="21"/>
@@ -38,6 +41,9 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-label-X94-zo-flx"/>
+                            </userDefinedRuntimeAttributes>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sqC-Nr-O7m">
                             <rect key="frame" x="503" y="5" width="44" height="36"/>
@@ -46,18 +52,30 @@
                             <connections>
                                 <action selector="onSendReply:" destination="-1" eventType="touchUpInside" id="zXg-4M-nGP"/>
                             </connections>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-button-sqC-Nr-O7m"/>
+                            </userDefinedRuntimeAttributes>
                         </button>
                         <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="cTT-0u-hzI">
                             <rect key="frame" x="516" y="13" width="20" height="20"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-activityIndicatorView-cTT-0u-hzI"/>
+                            </userDefinedRuntimeAttributes>
                         </activityIndicatorView>
                     </subviews>
                     <color key="backgroundColor" red="0.93072775139999997" green="0.93072775139999997" blue="0.93072775139999997" alpha="0.94999999999999996" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-view-hBK-UR-24O"/>
+                    </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
             <connections>
                 <outlet property="composerContainerView" destination="hBK-UR-24O" id="GCy-Ru-HVH"/>
             </connections>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-view-xQf-WQ-fdT"/>
+            </userDefinedRuntimeAttributes>
         </view>
     </objects>
 </document>

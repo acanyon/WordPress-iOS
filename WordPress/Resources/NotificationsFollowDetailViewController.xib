@@ -24,10 +24,16 @@
                         <outlet property="dataSource" destination="-1" id="13"/>
                         <outlet property="delegate" destination="-1" id="14"/>
                     </connections>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_NotificationsFollowDetailViewController-tableView-3"/>
+                    </userDefinedRuntimeAttributes>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_NotificationsFollowDetailViewController-view-1"/>
+            </userDefinedRuntimeAttributes>
         </view>
     </objects>
 </document>

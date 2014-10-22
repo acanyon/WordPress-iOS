@@ -34,6 +34,9 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                     <size key="shadowOffset" width="1" height="1"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-label-bpw-pb-444"/>
+                    </userDefinedRuntimeAttributes>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="2" image="ui-line-dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-Yo-1TK" userLabel="Top Line Divider">
                     <rect key="frame" x="16" y="42" width="288" height="2"/>
@@ -41,6 +44,9 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="2" id="D7i-R5-Sas"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-imageView-cHD-Yo-1TK"/>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
                 <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="2" image="ui-line-dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vu-dl-a2n" userLabel="Bottom Line Divider">
                     <rect key="frame" x="16" y="91" width="288" height="2"/>
@@ -48,6 +54,9 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="2" id="Mnf-wH-7eJ"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-imageView-9vu-dl-a2n"/>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a description that should have more information than the title." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="288" translatesAutoresizingMaskIntoConstraints="NO" id="jUH-h8-t6N" userLabel="Description">
                     <rect key="frame" x="16" y="52" width="288" height="37"/>
@@ -59,6 +68,9 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                     <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-label-jUH-h8-t6N"/>
+                    </userDefinedRuntimeAttributes>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jnm-50-ujk" userLabel="Bottom Panel">
                     <rect key="frame" x="0.0" y="154" width="320" height="45"/>
@@ -73,6 +85,9 @@
                             <connections>
                                 <action selector="clickedOnButton1" destination="-1" eventType="touchUpInside" id="rcO-O9-kmw"/>
                             </connections>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-button-jIS-Eo-CLW"/>
+                            </userDefinedRuntimeAttributes>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-dd-DIb" customClass="WPNUXPrimaryButton">
                             <rect key="frame" x="274" y="8" width="30" height="30"/>
@@ -83,6 +98,9 @@
                             <connections>
                                 <action selector="clickedOnButton2" destination="-1" eventType="touchUpInside" id="ozl-Zb-CaT"/>
                             </connections>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-button-sbI-dd-DIb"/>
+                            </userDefinedRuntimeAttributes>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -93,6 +111,9 @@
                         <constraint firstItem="jIS-Eo-CLW" firstAttribute="leading" secondItem="Jnm-50-ujk" secondAttribute="leading" constant="16" id="fAU-yf-i88"/>
                         <constraint firstAttribute="height" constant="45" id="kGJ-EV-cJL"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-view-Jnm-50-ujk"/>
+                    </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fJ-Wt-lQW">
                     <rect key="frame" x="16" y="95" width="140" height="21"/>
@@ -103,6 +124,9 @@
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-label-9fJ-Wt-lQW"/>
+                    </userDefinedRuntimeAttributes>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXR-7m-ZVL">
                     <rect key="frame" x="164" y="95" width="140" height="21"/>
@@ -113,6 +137,9 @@
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-label-DXR-7m-ZVL"/>
+                    </userDefinedRuntimeAttributes>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QOp-w7-qQW">
                     <rect key="frame" x="16" y="116" width="140" height="30"/>
@@ -128,6 +155,9 @@
                     <connections>
                         <outlet property="delegate" destination="-1" id="g5D-Ni-Y1A"/>
                     </connections>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-textField-QOp-w7-qQW"/>
+                    </userDefinedRuntimeAttributes>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fqb-fm-JFc">
                     <rect key="frame" x="164" y="116" width="140" height="30"/>
@@ -143,6 +173,9 @@
                     <connections>
                         <outlet property="delegate" destination="-1" id="1Dh-Xd-xUL"/>
                     </connections>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-textField-Fqb-fm-JFc"/>
+                    </userDefinedRuntimeAttributes>
                 </textField>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -183,6 +216,9 @@
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertViewSideBySide-view-OdB-GX-6df"/>
+            </userDefinedRuntimeAttributes>
         </view>
     </objects>
     <resources>

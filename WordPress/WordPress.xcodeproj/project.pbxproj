@@ -608,6 +608,7 @@
 			<string>1D6058960D05DD3E006BFB54</string>
 			<key>buildPhases</key>
 			<array>
+				<string>CDF89C6E436581BC10F8F203</string>
 				<string>1D60588D0D05DD3D006BFB54</string>
 				<string>832D4F01120A6F7C001708D4</string>
 				<string>E1756E61169493AD00D9EC00</string>
@@ -9522,6 +9523,29 @@
 			<string>CCEF153014C9EA050001176D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>CDF89C6E436581BC10F8F203</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Label Optimizely Views</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>ruby "$PODS_ROOT/Optimizely-iOS-SDK/scripts/OptimizelyPrepareNibs.rb"</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
 		</dict>
 		<key>CEBD3EA90FF1BA3B00C1396E</key>
 		<dict>
