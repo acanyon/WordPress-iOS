@@ -30,6 +30,7 @@
                     <cells/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeBrowserViewController-collectionView-DGf-ap-P0O"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeBrowserViewController.xib-collectionView-DGf-ap-P0O"/>
                     </userDefinedRuntimeAttributes>
                 </collectionView>
             </subviews>
@@ -38,6 +39,7 @@
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeBrowserViewController-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeBrowserViewController.xib-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <searchBar contentMode="redraw" id="cwU-sp-aH0">

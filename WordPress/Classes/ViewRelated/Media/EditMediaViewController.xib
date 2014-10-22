@@ -40,12 +40,14 @@
                             <gestureRecognizers/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-imageView-EzM-pC-JUh"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-imageView-EzM-pC-JUh"/>
                             </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-scrollView-byG-AU-irK"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-scrollView-byG-AU-irK"/>
                     </userDefinedRuntimeAttributes>
                 </scrollView>
                 <view clipsSubviews="YES" contentMode="scaleToFill" id="Uzg-6b-VZH" userLabel="ContainerView">
@@ -59,6 +61,7 @@
                             <color key="tintColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-Tq1-vM-i5N"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-Tq1-vM-i5N"/>
                             </userDefinedRuntimeAttributes>
                         </view>
                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="f38-of-zhk">
@@ -67,12 +70,14 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-scrollView-f38-of-zhk"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-scrollView-f38-of-zhk"/>
                             </userDefinedRuntimeAttributes>
                         </scrollView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-Uzg-6b-VZH"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-Uzg-6b-VZH"/>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
@@ -81,6 +86,7 @@
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <view contentMode="scaleToFill" id="VCW-EI-fsb">
@@ -96,6 +102,7 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-kGe-VT-mOw"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-kGe-VT-mOw"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" minimumFontSize="17" id="0Rl-2a-bCh" userLabel="Title">
@@ -106,6 +113,7 @@
                     <textInputTraits key="textInputTraits"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-textField-0Rl-2a-bCh"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-textField-0Rl-2a-bCh"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <view alpha="0.30000001192092896" contentMode="scaleToFill" id="0uA-2V-f1r">
@@ -115,6 +123,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-0uA-2V-f1r"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-0uA-2V-f1r"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAPTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oVB-OH-zeM">
@@ -125,6 +134,7 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-oVB-OH-zeM"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-oVB-OH-zeM"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Caption" minimumFontSize="17" id="pER-7s-n8J" userLabel="Caption">
@@ -136,6 +146,7 @@
                     <textInputTraits key="textInputTraits"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-textField-pER-7s-n8J"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-textField-pER-7s-n8J"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <view alpha="0.30000001192092896" contentMode="scaleToFill" id="S3K-h0-bIM">
@@ -144,6 +155,7 @@
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-S3K-h0-bIM"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-S3K-h0-bIM"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESCRIPTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J1C-E0-fBp">
@@ -154,6 +166,7 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-J1C-E0-fBp"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-J1C-E0-fBp"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" editable="NO" id="g6K-R6-9Wt" userLabel="Description">
@@ -165,6 +178,7 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-textView-g6K-R6-9Wt"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-textView-g6K-R6-9Wt"/>
                     </userDefinedRuntimeAttributes>
                 </textView>
                 <view alpha="0.30000001192092896" contentMode="scaleToFill" id="yoH-9J-SJd">
@@ -174,6 +188,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-yoH-9J-SJd"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-yoH-9J-SJd"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rmG-H9-q1g">
@@ -185,6 +200,7 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-rmG-H9-q1g"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-rmG-H9-q1g"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rY3-Ln-TAx" userLabel="Label - Dimensions">
@@ -195,12 +211,14 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-rY3-Ln-TAx"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-rY3-Ln-TAx"/>
                     </userDefinedRuntimeAttributes>
                 </label>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-VCW-EI-fsb"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-VCW-EI-fsb"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

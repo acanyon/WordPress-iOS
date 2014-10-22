@@ -28,12 +28,14 @@
                     </connections>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AddSiteViewController-tableView-4"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AddSiteViewController.xib-tableView-4"/>
                     </userDefinedRuntimeAttributes>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AddSiteViewController-view-9"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AddSiteViewController.xib-view-9"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

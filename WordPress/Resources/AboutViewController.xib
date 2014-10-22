@@ -36,6 +36,7 @@
                             <size key="shadowOffset" width="0.0" height="1"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-label-33"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-label-33"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="53">
@@ -46,6 +47,7 @@
                             <nil key="highlightedColor"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-label-53"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-label-53"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" minimumFontSize="10" adjustsFontSizeToFit="NO" id="36">
@@ -60,6 +62,7 @@ Copyright: Automattic</string>
                             <size key="shadowOffset" width="0.0" height="1"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-label-36"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-label-36"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" id="41">
@@ -78,6 +81,7 @@ Copyright: Automattic</string>
                             </connections>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-button-41"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-button-41"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" id="21">
@@ -97,6 +101,7 @@ Copyright: Automattic</string>
                             </connections>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-button-21"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-button-21"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" id="20">
@@ -116,11 +121,13 @@ Copyright: Automattic</string>
                             </connections>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-button-20"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-button-20"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                     </subviews>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-scrollView-dxy-8e-g3D"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-scrollView-dxy-8e-g3D"/>
                     </userDefinedRuntimeAttributes>
                 </scrollView>
             </subviews>
@@ -128,6 +135,7 @@ Copyright: Automattic</string>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_AboutViewController-view-T6I-j2-k2C"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-AboutViewController.xib-view-T6I-j2-k2C"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

@@ -197,6 +197,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>15107C8C2DB7184E98B87458</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Tag views w/ Mixpanel identifier</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+            <string>ruby "$PODS_ROOT/Mixpanel/scripts/MPTagNibs.rb"</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
 		<key>19C28FACFE9D520D11CA2CBB</key>
 		<dict>
 			<key>children</key>
@@ -616,6 +639,7 @@
 				<string>1D60588F0D05DD3D006BFB54</string>
 				<string>79289B3ECCA2441197B8D7F6</string>
 				<string>E1CCFB31175D62320016BD8A</string>
+				<string>15107C8C2DB7184E98B87458</string>
 			</array>
 			<key>buildRules</key>
 			<array/>

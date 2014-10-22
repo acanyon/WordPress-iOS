@@ -37,6 +37,7 @@
                     <size key="shadowOffset" width="1" height="1"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-label-bpw-pb-444"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-label-bpw-pb-444"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="2" image="ui-line-dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-Yo-1TK" userLabel="Top Line Divider">
@@ -47,6 +48,7 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-imageView-cHD-Yo-1TK"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-imageView-cHD-Yo-1TK"/>
                     </userDefinedRuntimeAttributes>
                 </imageView>
                 <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="2" image="ui-line-dark.png" translatesAutoresizingMaskIntoConstraints="NO" id="9vu-dl-a2n" userLabel="Bottom Line Divider">
@@ -57,6 +59,7 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-imageView-9vu-dl-a2n"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-imageView-9vu-dl-a2n"/>
                     </userDefinedRuntimeAttributes>
                 </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a description that should have more information that the title." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="288" translatesAutoresizingMaskIntoConstraints="NO" id="jUH-h8-t6N" userLabel="Description">
@@ -71,6 +74,7 @@
                     <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-label-jUH-h8-t6N"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-label-jUH-h8-t6N"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jnm-50-ujk" userLabel="Bottom Panel">
@@ -88,6 +92,7 @@
                             </connections>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-button-jIS-Eo-CLW"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-button-jIS-Eo-CLW"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbI-dd-DIb" customClass="WPNUXPrimaryButton">
@@ -101,6 +106,7 @@
                             </connections>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-button-sbI-dd-DIb"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-button-sbI-dd-DIb"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                     </subviews>
@@ -114,6 +120,7 @@
                     </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-view-Jnm-50-ujk"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-view-Jnm-50-ujk"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QOp-w7-qQW">
@@ -130,6 +137,7 @@
                     </connections>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-textField-QOp-w7-qQW"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-textField-QOp-w7-qQW"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fqb-fm-JFc">
@@ -146,6 +154,7 @@
                     </connections>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-textField-Fqb-fm-JFc"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-textField-Fqb-fm-JFc"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="his-1i-AHr">
@@ -160,6 +169,7 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-label-his-1i-AHr"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-label-his-1i-AHr"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjl-Kf-xwm">
@@ -173,6 +183,7 @@
                     <nil key="highlightedColor"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-label-Zjl-Kf-xwm"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-label-Zjl-Kf-xwm"/>
                     </userDefinedRuntimeAttributes>
                 </label>
             </subviews>
@@ -214,6 +225,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPAlertView-view-OdB-GX-6df"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPAlertView.xib-view-OdB-GX-6df"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

@@ -26,6 +26,7 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-imageView-4"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-imageView-4"/>
                     </userDefinedRuntimeAttributes>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="22">
@@ -41,6 +42,7 @@
                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-label-8"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-label-8"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name (required)" minimumFontSize="17" id="7">
@@ -50,6 +52,7 @@
                             <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="alphabet" returnKeyType="next"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-textField-7"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-textField-7"/>
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail (required)" minimumFontSize="17" id="6">
@@ -59,6 +62,7 @@
                             <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-textField-6"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-textField-6"/>
                             </userDefinedRuntimeAttributes>
                         </textField>
                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Feedback (required)" id="5">
@@ -70,6 +74,7 @@
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-textView-5"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-textView-5"/>
                             </userDefinedRuntimeAttributes>
                         </textView>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Thank You for Testing!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="28">
@@ -82,11 +87,13 @@
                             <size key="shadowOffset" width="0.0" height="1"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-label-28"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-label-28"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                     </subviews>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-scrollView-22"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-scrollView-22"/>
                     </userDefinedRuntimeAttributes>
                 </scrollView>
                 <navigationBar contentMode="scaleToFill" id="11">
@@ -109,6 +116,7 @@
                     </items>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-navigationBar-11"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-navigationBar-11"/>
                     </userDefinedRuntimeAttributes>
                 </navigationBar>
             </subviews>
@@ -116,6 +124,7 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_BetaFeedbackViewController-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-BetaFeedbackViewController.xib-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

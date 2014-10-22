@@ -31,6 +31,7 @@
                     <cells/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-collectionView-c0v-gh-0YF"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaBrowserViewController.xib-collectionView-c0v-gh-0YF"/>
                     </userDefinedRuntimeAttributes>
                 </collectionView>
             </subviews>
@@ -39,6 +40,7 @@
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaBrowserViewController.xib-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translucent="NO" id="aza-XB-bxb">
@@ -73,6 +75,7 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-view-lVI-zX-k6C"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaBrowserViewController.xib-view-lVI-zX-k6C"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

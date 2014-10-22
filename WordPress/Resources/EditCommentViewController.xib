@@ -26,6 +26,7 @@
                     </connections>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditCommentViewController-textView-4"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditCommentViewController.xib-textView-4"/>
                     </userDefinedRuntimeAttributes>
                 </textView>
             </subviews>
@@ -33,6 +34,7 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditCommentViewController-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditCommentViewController.xib-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>
