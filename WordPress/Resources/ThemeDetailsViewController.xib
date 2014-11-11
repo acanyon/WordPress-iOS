@@ -26,6 +26,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-view-1"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <view autoresizesSubviews="NO" contentMode="scaleToFill" id="3CU-sT-LO6" userLabel="Theme controls">
@@ -46,6 +47,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-label-tcq-Ue-RSx"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-label-tcq-Ue-RSx"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-tcq-Ue-RSx"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7t5-hU-3n4">
@@ -53,6 +55,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-imageView-7t5-hU-3n4"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-imageView-7t5-hU-3n4"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-imageView-7t5-hU-3n4"/>
                             </userDefinedRuntimeAttributes>
                         </imageView>
                         <button autoresizesSubviews="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7xB-8l-c4O">
@@ -68,6 +71,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-button-7xB-8l-c4O"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-button-7xB-8l-c4O"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-button-7xB-8l-c4O"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SpD-xm-1Vb">
@@ -83,12 +87,14 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-button-SpD-xm-1Vb"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-button-SpD-xm-1Vb"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-button-SpD-xm-1Vb"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                     </subviews>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-view-9MJ-Su-0Bm"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-view-9MJ-Su-0Bm"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-9MJ-Su-0Bm"/>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
@@ -96,6 +102,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_ThemeDetailsViewController-view-3CU-sT-LO6"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-ThemeDetailsViewController.xib-view-3CU-sT-LO6"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-3CU-sT-LO6"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

@@ -51,6 +51,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaObjectView-toolbar-3"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaObjectView.xib-toolbar-3"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-toolbar-3"/>
                     </userDefinedRuntimeAttributes>
                 </toolbar>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" minimumZoomScale="0.5" maximumZoomScale="4" id="15">
@@ -63,6 +64,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaObjectView-imageView-5"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaObjectView.xib-imageView-5"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-imageView-5"/>
                             </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
@@ -72,6 +74,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaObjectView-scrollView-15"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaObjectView.xib-scrollView-15"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-scrollView-15"/>
                     </userDefinedRuntimeAttributes>
                 </scrollView>
             </subviews>
@@ -81,6 +84,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaObjectView-view-1"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaObjectView.xib-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

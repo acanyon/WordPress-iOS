@@ -32,6 +32,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-collectionView-c0v-gh-0YF"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaBrowserViewController.xib-collectionView-c0v-gh-0YF"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-collectionView-c0v-gh-0YF"/>
                     </userDefinedRuntimeAttributes>
                 </collectionView>
             </subviews>
@@ -41,6 +42,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-view-1"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaBrowserViewController.xib-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translucent="NO" id="aza-XB-bxb">
@@ -76,6 +78,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_MediaBrowserViewController-view-lVI-zX-k6C"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-MediaBrowserViewController.xib-view-lVI-zX-k6C"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-lVI-zX-k6C"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

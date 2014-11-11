@@ -41,6 +41,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-imageView-EzM-pC-JUh"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-imageView-EzM-pC-JUh"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-imageView-EzM-pC-JUh"/>
                             </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
@@ -48,6 +49,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-scrollView-byG-AU-irK"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-scrollView-byG-AU-irK"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-scrollView-byG-AU-irK"/>
                     </userDefinedRuntimeAttributes>
                 </scrollView>
                 <view clipsSubviews="YES" contentMode="scaleToFill" id="Uzg-6b-VZH" userLabel="ContainerView">
@@ -62,6 +64,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-Tq1-vM-i5N"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-Tq1-vM-i5N"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-Tq1-vM-i5N"/>
                             </userDefinedRuntimeAttributes>
                         </view>
                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="f38-of-zhk">
@@ -71,6 +74,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-scrollView-f38-of-zhk"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-scrollView-f38-of-zhk"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-scrollView-f38-of-zhk"/>
                             </userDefinedRuntimeAttributes>
                         </scrollView>
                     </subviews>
@@ -78,6 +82,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-Uzg-6b-VZH"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-Uzg-6b-VZH"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-Uzg-6b-VZH"/>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
@@ -87,6 +92,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-1"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <view contentMode="scaleToFill" id="VCW-EI-fsb">
@@ -103,6 +109,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-kGe-VT-mOw"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-kGe-VT-mOw"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-kGe-VT-mOw"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" minimumFontSize="17" id="0Rl-2a-bCh" userLabel="Title">
@@ -114,6 +121,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-textField-0Rl-2a-bCh"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-textField-0Rl-2a-bCh"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-textField-0Rl-2a-bCh"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <view alpha="0.30000001192092896" contentMode="scaleToFill" id="0uA-2V-f1r">
@@ -124,6 +132,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-0uA-2V-f1r"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-0uA-2V-f1r"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-0uA-2V-f1r"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAPTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oVB-OH-zeM">
@@ -135,6 +144,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-oVB-OH-zeM"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-oVB-OH-zeM"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-oVB-OH-zeM"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Caption" minimumFontSize="17" id="pER-7s-n8J" userLabel="Caption">
@@ -147,6 +157,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-textField-pER-7s-n8J"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-textField-pER-7s-n8J"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-textField-pER-7s-n8J"/>
                     </userDefinedRuntimeAttributes>
                 </textField>
                 <view alpha="0.30000001192092896" contentMode="scaleToFill" id="S3K-h0-bIM">
@@ -156,6 +167,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-S3K-h0-bIM"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-S3K-h0-bIM"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-S3K-h0-bIM"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESCRIPTION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J1C-E0-fBp">
@@ -167,6 +179,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-J1C-E0-fBp"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-J1C-E0-fBp"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-J1C-E0-fBp"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <textView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" editable="NO" id="g6K-R6-9Wt" userLabel="Description">
@@ -179,6 +192,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-textView-g6K-R6-9Wt"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-textView-g6K-R6-9Wt"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-textView-g6K-R6-9Wt"/>
                     </userDefinedRuntimeAttributes>
                 </textView>
                 <view alpha="0.30000001192092896" contentMode="scaleToFill" id="yoH-9J-SJd">
@@ -189,6 +203,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-yoH-9J-SJd"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-yoH-9J-SJd"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-yoH-9J-SJd"/>
                     </userDefinedRuntimeAttributes>
                 </view>
                 <label autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rmG-H9-q1g">
@@ -201,6 +216,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-rmG-H9-q1g"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-rmG-H9-q1g"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-rmG-H9-q1g"/>
                     </userDefinedRuntimeAttributes>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rY3-Ln-TAx" userLabel="Label - Dimensions">
@@ -212,6 +228,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-label-rY3-Ln-TAx"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-label-rY3-Ln-TAx"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-rY3-Ln-TAx"/>
                     </userDefinedRuntimeAttributes>
                 </label>
             </subviews>
@@ -219,6 +236,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_EditMediaViewController-view-VCW-EI-fsb"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-EditMediaViewController.xib-view-VCW-EI-fsb"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-VCW-EI-fsb"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

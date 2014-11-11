@@ -1,7 +1,7 @@
 #import "WordPressComApiCredentials.h"
 
-#define WPCOM_API_CLIENT_ID @""
-#define WPCOM_API_CLIENT_SECRET @""
+#define WPCOM_API_CLIENT_ID @"36718"
+#define WPCOM_API_CLIENT_SECRET @"UFk9nhffbDQymka9AIevcniNIVP4lCQMR8SRFBteQ6xbdNhfBuuSklENE2eihBQZ"
 
 @implementation WordPressComApiCredentials
 
@@ -14,7 +14,7 @@
 }
 
 + (NSString *)mixpanelAPIToken {
-    return @"";
+    return @"76aee50209c702b0b67f048aa602ef05";
 }
 
 + (NSString *)pocketConsumerKey {

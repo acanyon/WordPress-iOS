@@ -27,6 +27,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_NotificationsFollowDetailViewController-tableView-3"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-NotificationsFollowDetailViewController.xib-tableView-3"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-tableView-3"/>
                     </userDefinedRuntimeAttributes>
                 </tableView>
             </subviews>
@@ -35,6 +36,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_NotificationsFollowDetailViewController-view-1"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-NotificationsFollowDetailViewController.xib-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

@@ -34,6 +34,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-textView-BZS-fj-e3Z"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-InlineComposeView.xib-textView-BZS-fj-e3Z"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-textView-BZS-fj-e3Z"/>
                             </userDefinedRuntimeAttributes>
                         </textView>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write a reply…" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X94-zo-flx">
@@ -45,6 +46,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-label-X94-zo-flx"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-InlineComposeView.xib-label-X94-zo-flx"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-X94-zo-flx"/>
                             </userDefinedRuntimeAttributes>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sqC-Nr-O7m">
@@ -57,6 +59,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-button-sqC-Nr-O7m"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-InlineComposeView.xib-button-sqC-Nr-O7m"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-button-sqC-Nr-O7m"/>
                             </userDefinedRuntimeAttributes>
                         </button>
                         <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="cTT-0u-hzI">
@@ -65,6 +68,7 @@
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-activityIndicatorView-cTT-0u-hzI"/>
                                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-InlineComposeView.xib-activityIndicatorView-cTT-0u-hzI"/>
+                                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-activityIndicatorView-cTT-0u-hzI"/>
                             </userDefinedRuntimeAttributes>
                         </activityIndicatorView>
                     </subviews>
@@ -72,6 +76,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-view-hBK-UR-24O"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-InlineComposeView.xib-view-hBK-UR-24O"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-hBK-UR-24O"/>
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
@@ -81,6 +86,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_InlineComposeView-view-xQf-WQ-fdT"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-InlineComposeView.xib-view-xQf-WQ-fdT"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-xQf-WQ-fdT"/>
             </userDefinedRuntimeAttributes>
         </view>
     </objects>

@@ -23,6 +23,7 @@
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPTableViewActivityCell-label-5"/>
                             <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPTableViewActivityCell.xib-label-5"/>
+                            <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-label-5"/>
                         </userDefinedRuntimeAttributes>
                     </label>
                     <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="4">
@@ -31,6 +32,7 @@
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPTableViewActivityCell-activityIndicatorView-4"/>
                             <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPTableViewActivityCell.xib-activityIndicatorView-4"/>
+                            <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-activityIndicatorView-4"/>
                         </userDefinedRuntimeAttributes>
                     </activityIndicatorView>
                 </subviews>

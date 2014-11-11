@@ -31,6 +31,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPWebViewController-webView-5"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPWebViewController.xib-webView-5"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-webView-5"/>
                     </userDefinedRuntimeAttributes>
                 </webView>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="bottom" barStyle="black" id="3">
@@ -62,6 +63,7 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPWebViewController-toolbar-3"/>
                         <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPWebViewController.xib-toolbar-3"/>
+                        <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-toolbar-3"/>
                     </userDefinedRuntimeAttributes>
                 </toolbar>
             </subviews>
@@ -71,6 +73,7 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="optimizelyId" value="_WPWebViewController-view-1"/>
                 <userDefinedRuntimeAttribute keyPath="mixpanel_id" type="string" value="mp-WPWebViewController.xib-view-1"/>
+                <userDefinedRuntimeAttribute keyPath="mixpanelViewId" type="string" value="mp-view-1"/>
             </userDefinedRuntimeAttributes>
         </view>
         <barButtonItem image="icon-posts-share" id="51">
