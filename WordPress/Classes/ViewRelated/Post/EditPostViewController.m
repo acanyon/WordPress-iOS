@@ -14,6 +14,8 @@
 #import <WordPress-iOS-Shared/UIImage+Util.h>
 #import <WordPress-iOS-Shared/WPFontManager.h>
 
+#import "Mixpanel/MPTweakInline.h"
+
 NSString *const WPEditorNavigationRestorationID = @"WPEditorNavigationRestorationID";
 NSString *const WPAbstractPostRestorationKey = @"WPAbstractPostRestorationKey";
 static NSInteger const MaximumNumberOfPictures = 4;
@@ -360,25 +362,51 @@ static NSInteger const MaximumNumberOfPictures = 4;
 	UIActionSheet *actionSheet;
 	if (![self.post.original.status isEqualToString:@"draft"] && self.editMode != EditPostViewControllerModeNewPost) {
         // The post is already published in the server or it was intended to be and failed: Discard changes or keep editing
-		actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"You have unsaved changes.", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
-												  delegate:self
-                                         cancelButtonTitle:NSLocalizedString(@"Keep Editing", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
-                                    destructiveButtonTitle:NSLocalizedString(@"Discard", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
-										 otherButtonTitles:nil];
+        if(MPTweakValue(@"Save As Draft Copy", NO)){
+            actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"Yep, check your grammar before you post!", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
+                                                      delegate:self
+                                             cancelButtonTitle:NSLocalizedString(@"Yeah, I probably made a mistake", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                        destructiveButtonTitle:NSLocalizedString(@"Think before you post...", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                             otherButtonTitles:NSLocalizedString(@"Maybe later", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+        }else{
+            actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"You have unsaved changes.", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
+                                                      delegate:self
+                                             cancelButtonTitle:NSLocalizedString(@"Keep Editing", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                        destructiveButtonTitle:NSLocalizedString(@"Discard", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                             otherButtonTitles:NSLocalizedString(@"Save Draft", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+        }
     } else if (self.editMode == EditPostViewControllerModeNewPost) {
         // The post is a local draft or an autosaved draft: Discard or Save
-        actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"You have unsaved changes.", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
+        if(MPTweakValue(@"Save As Draft Copy", NO)){
+            actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"Yep, check your grammar before you post!", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
                                                   delegate:self
-                                         cancelButtonTitle:NSLocalizedString(@"Keep Editing", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
-                                    destructiveButtonTitle:NSLocalizedString(@"Discard", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
-                                         otherButtonTitles:NSLocalizedString(@"Save Draft", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+                                         cancelButtonTitle:NSLocalizedString(@"Yeah, I probably made a mistake", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                    destructiveButtonTitle:NSLocalizedString(@"Think before you post...", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                         otherButtonTitles:NSLocalizedString(@"Maybe later", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+        }else{
+            actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"You have unsaved changes.", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
+                                                      delegate:self
+                                             cancelButtonTitle:NSLocalizedString(@"Keep Editing", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                        destructiveButtonTitle:NSLocalizedString(@"Discard", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                             otherButtonTitles:NSLocalizedString(@"Save Draft", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+        }
+
     } else {
         // The post was already a draft
-        actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"You have unsaved changes.", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
-                                                  delegate:self
-                                         cancelButtonTitle:NSLocalizedString(@"Keep Editing", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
-                                    destructiveButtonTitle:NSLocalizedString(@"Discard", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
-                                         otherButtonTitles:NSLocalizedString(@"Update Draft", @"Button shown if there are unsaved changes and the author is trying to move away from an already published/saved post."), nil];
+        if(MPTweakValue(@"Save As Draft Copy", NO)){
+            actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"Yep, check your grammar before you post!", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
+                                                      delegate:self
+                                             cancelButtonTitle:NSLocalizedString(@"Yeah, I probably made a mistake", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                        destructiveButtonTitle:NSLocalizedString(@"Think before you post...", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                             otherButtonTitles:NSLocalizedString(@"Maybe later", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+        }else{
+            actionSheet = [[UIActionSheet alloc] initWithTitle:NSLocalizedString(@"You have unsaved changes.", @"Title of message with options that shown when there are unsaved changes and the author is trying to move away from the post.")
+                                                      delegate:self
+                                             cancelButtonTitle:NSLocalizedString(@"Keep Editing", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                        destructiveButtonTitle:NSLocalizedString(@"Discard", @"Button shown if there are unsaved changes and the author is trying to move away from the post.")
+                                             otherButtonTitles:NSLocalizedString(@"Save Draft", @"Button shown if there are unsaved changes and the author is trying to move away from the post."), nil];
+        }
+
     }
     
     actionSheet.tag = 201;

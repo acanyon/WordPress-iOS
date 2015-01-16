@@ -1,7 +1,7 @@
 #import "WordPressComApiCredentials.h"
 
-#define WPCOM_API_CLIENT_ID @"36718"
-#define WPCOM_API_CLIENT_SECRET @"UFk9nhffbDQymka9AIevcniNIVP4lCQMR8SRFBteQ6xbdNhfBuuSklENE2eihBQZ"
+#define WPCOM_API_CLIENT_ID @"38337" // se@mixpanel.com
+#define WPCOM_API_CLIENT_SECRET @"TA1pdnRwuSZTklOX3z5xi4nUzS1ORDZUGDHwAyXGZbRiYEXw5IRvB5IZ6q0CLmwX"
 
 @implementation WordPressComApiCredentials
 
@@ -13,8 +13,9 @@
     return WPCOM_API_CLIENT_SECRET;
 }
 
+// Wordpress project token: 76aee50209c702b0b67f048aa602ef05
 + (NSString *)mixpanelAPIToken {
-    return @"76aee50209c702b0b67f048aa602ef05";
+    return @"";
 }
 
 + (NSString *)pocketConsumerKey {
@@ -24,7 +25,7 @@
 + (NSString *)crashlyticsApiKey {
     return @"";
 }
-    
+
 + (NSString *)hockeyappAppId {
     return @"";
 }

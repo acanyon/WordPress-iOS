@@ -19,6 +19,7 @@
 #import "AccountService.h"
 #import "BlogService.h"
 #import "WPNUXHelpBadgeLabel.h"
+#import "Mixpanel.h"
 #import <Helpshift/Helpshift.h>
 #import <WordPress-iOS-Shared/WPFontManager.h>
 
@@ -834,7 +835,9 @@ CGFloat const GeneralWalkthroughStatusBarOffset = 20.0;
         [self signInForWPComForUsername:username andPassword:password];
         return;
     }
-        
+    
+    [[Mixpanel sharedInstance] identify:username];
+    
     void (^guessXMLRPCURLSuccess)(NSURL *) = ^(NSURL *xmlRPCURL) {
         WordPressXMLRPCApi *api = [WordPressXMLRPCApi apiWithXMLRPCEndpoint:xmlRPCURL username:username password:password];
         
@@ -873,6 +876,8 @@ CGFloat const GeneralWalkthroughStatusBarOffset = 20.0;
                                  [self setAuthenticating:NO withStatusMessage:nil];
                                  _userIsDotCom = YES;
                                  [self createWordPressComAccountForUsername:username password:password authToken:authToken];
+                                 [[Mixpanel sharedInstance] identify:username];
+                                 [[[Mixpanel sharedInstance] people] set:@{@"name": @"Pat Davis", @"$email": @"se@mixpanel.com"}];
                              } failure:^(NSError *error) {
                                  [self setAuthenticating:NO withStatusMessage:nil];
                                  [self displayRemoteError:error];

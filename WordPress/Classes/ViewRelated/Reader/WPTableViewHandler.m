@@ -292,6 +292,8 @@ static CGFloat const DefaultCellHeight = 44.0;
         case NSFetchedResultsChangeDelete:
             [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:[self tableViewRowAnimation]];
             break;
+        default:
+            break;
     }
 }
 

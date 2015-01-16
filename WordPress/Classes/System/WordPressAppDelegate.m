@@ -9,7 +9,6 @@
 #import <UIDeviceIdentifier/UIDeviceHardware.h>
 #import <Simperium/Simperium.h>
 #import <Helpshift/Helpshift.h>
-#import <Taplytics/Taplytics.h>
 #import <WordPress-iOS-Shared/WPFontManager.h>
 
 #import "WordPressAppDelegate.h"
@@ -45,6 +44,9 @@
 #import "WPAnalyticsTrackerWPCom.h"
 
 #import "Reachability.h"
+
+
+#import "Mixpanel.h"
 
 #if DEBUG
 #import "DDTTYLogger.h"
@@ -108,7 +110,6 @@ NSInteger const kMeTabIndex = 2;
     [self removeCredentialsForDebug];
     
     // Stats and feedback
-    [Taplytics startTaplyticsAPIKey:[WordPressComApiCredentials taplyticsAPIKey]];
     [SupportViewController checkIfFeedbackShouldBeEnabled];
 
     [Helpshift installForApiKey:[WordPressComApiCredentials helpshiftAPIKey] domainName:[WordPressComApiCredentials helpshiftDomainName] appID:[WordPressComApiCredentials helpshiftAppId]];
@@ -123,8 +124,8 @@ NSInteger const kMeTabIndex = 2;
         [NSUserDefaults resetStandardUserDefaults];
     }
     
-    [WPAnalytics registerTracker:[[WPAnalyticsTrackerMixpanel alloc] init]];
     [WPAnalytics registerTracker:[[WPAnalyticsTrackerWPCom alloc] init]];
+    [Mixpanel sharedInstanceWithToken:[[NSUserDefaults standardUserDefaults] stringForKey:@"MixpanelToken"]];
     
     if ([[NSUserDefaults standardUserDefaults] boolForKey:kUsageTrackingDefaultsKey]) {
         DDLogInfo(@"WPAnalytics session started");
