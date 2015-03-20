@@ -125,7 +125,7 @@ NSInteger const kMeTabIndex = 2;
     }
     
     [WPAnalytics registerTracker:[[WPAnalyticsTrackerWPCom alloc] init]];
-    [Mixpanel sharedInstanceWithToken:[[NSUserDefaults standardUserDefaults] stringForKey:@"MixpanelToken"]];
+    [Mixpanel sharedInstanceWithToken:@"amanda-1"];
     
     if ([[NSUserDefaults standardUserDefaults] boolForKey:kUsageTrackingDefaultsKey]) {
         DDLogInfo(@"WPAnalytics session started");
